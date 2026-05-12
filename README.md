@@ -9,18 +9,18 @@ This repository is intended for personal use only and may be unstable on hardwar
 It contains fully configured EFI OpenCore and Clover Folders.
 I assume no liability for the use of this repository. Use it at your own risk!
 
-- ⚠️ Attention! If you have RX5700 (XT) graphics card, you have to use the nameframe (ATI,Adder) to avoid WindowServer crashes!
+- ⚠️ Attention! If you have RX5700 (XT) graphics card, you have to use the Framebuffer (ATI,Adder) to avoid WindowServer crashes!
 
 ## 🛠️ Hardware configuration:
 * CPU: i7-12700kf AlderLake
 * MB: Asrock Z690 PG Riptide [`More info`](https://pg.asrock.com/mb/Intel/Z690%20PG%20Riptide/index.ru.asp#Overview). 
-* RAM: 2x32Gb DDR4 3200 Crucial Technology      
+* RAM: 64GB (2x32GB) DDR4 3200 Crucial Technology      
 * GPU: Radeon Sapphire Nitro+ RX5700XT 8G GDDR6 SE [`More info`](https://www.sapphiretech.com/ru-ru/consumer/nitro-radeon-rx-5700-xt-se-8g-gddr6).
 * SSD: WD_BLACK SN850X 1000GB NVME M2 (PCI-e 4.0) - macOS Tahoe macOS 26.5 (25F71).
 * SSD: WD_BLACK SN850X 1000GB NVME M2 (PCI-e 4.0) - Windows 11 (25H2).
 * SSD: Samsung 860 EVO 500GB (SATA-6 AHCI) - macOS Ventura 13.7.8 (22H730).
 * WIFI / BT: BCM94360 FENVI FV-HB1200 AC PCI-E adapter.
-* For full functionality FENVI FV-HB1200 on Mac OS Sonoma and Sequoya, required:
+* For full functionality FENVI FV-HB1200 on Mac OS Sonoma and Sequoia, required:
 * [`OCLP patch 2.4.1 or newer`](https://github.com/dortania/OpenCore-Legacy-Patcher).
 * For full functionality FENVI FV-HB1200 on macOS Tahoe, required:
 * [`OCLP-Plus 3.2.2 (Tahoe Patch Set)`](https://github.com/YBronst/OCLP-Plus/releases)
@@ -68,6 +68,6 @@ I assume no liability for the use of this repository. Use it at your own risk!
 * FileVault2 not working in Sonoma/Sequoia and Tahoe with the OCLP patch!
  
 ## 📝 Notes:
-* All mac os futures are working including DRM playback and sleep/wake S3 and FileVault2 in macOS Ventura 13.x.x versions.
+* All macOS features are working including DRM playback and sleep/wake S3 and FileVault2 in macOS Ventura 13.x.x versions.
 * Clover has issue with update under T2 mac models
 * Before use, you need to generate your own MLB and SMBIOS data using a Py script that uses acidanthera's macserial to generate SMBIOS and optionally saves them to a plist [`More info`](https://github.com/corpnewt/GenSMBIOS)
