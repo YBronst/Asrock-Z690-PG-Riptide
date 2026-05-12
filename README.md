@@ -13,7 +13,7 @@ I assume no liability for the use of this repository. Use it at your own risk!
 
 ## 🛠️ Hardware configuration:
 * CPU: i7-12700kf AlderLake
-* MB: Asrock Z690 PG Reptide [`More info`](https://pg.asrock.com/mb/Intel/Z690%20PG%20Riptide/index.ru.asp#Overview). 
+* MB: Asrock Z690 PG Riptide [`More info`](https://pg.asrock.com/mb/Intel/Z690%20PG%20Riptide/index.ru.asp#Overview). 
 * RAM: 2x32Gb DDR4 3200 Crucial Technology      
 * GPU: Radeon Sapphire Nitro+ RX5700XT 8G GDDR6 SE [`More info`](https://www.sapphiretech.com/ru-ru/consumer/nitro-radeon-rx-5700-xt-se-8g-gddr6).
 * SSD: WD_BLACK SN850X 1000GB NVME M2 (PCI-e 4.0) - macOS Tahoe macOS 26.5 (25F71).
