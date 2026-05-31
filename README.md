@@ -3,8 +3,10 @@
 
 # Asrock-Z690-PG-Riptide-hackintosh
 </div>
-
-## 👉 Disclaimer
+<div align="center">
+<img width="960" height="960" alt="S500add6961594719bef349bcf92bfae5c jpg_960x960q75 jpg_" src="https://github.com/user-attachments/assets/96a8193b-5ebd-43d9-bf2f-b25fbb9763a2" />
+</div>
+ ## 👉 Disclaimer
 This repository is intended for personal use only and may be unstable on hardware configurations other than those listed below. It contains fully configured OpenCore and Clover EFI folders. I assume no liability for the use of this repository. Use it at your own risk!
 
 > ⚠️ **Attention!** If you have an RX 5700 (XT) graphics card, you must use the **Framebuffer (ATI,Adder)** to avoid WindowServer crashes!
