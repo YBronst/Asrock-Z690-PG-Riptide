@@ -2,10 +2,12 @@
 <img width="256" alt="Asrock Z690 PG Riptide Hackintosh Logo" src="https://github.com/user-attachments/assets/362c57fa-40b6-4a5a-ab26-eec0cf93222b" />
 
 # Asrock-Z690-PG-Riptide-hackintosh
+
 </div>
 <div align="center">
-<img width="960" height="960" alt="S500add6961594719bef349bcf92bfae5c jpg_960x960q75 jpg_" src="https://github.com/user-attachments/assets/96a8193b-5ebd-43d9-bf2f-b25fbb9763a2" />
+<img width="800" height="666" alt="asrock-z690-pg-riptide-guvn5_7525caa26f0b4f3cae5078fcfd87f556_master" src="https://github.com/user-attachments/assets/3180efe9-8293-43ed-bb00-96a3af9ed510" />
 </div>
+
  ## 👉 Disclaimer
 This repository is intended for personal use only and may be unstable on hardware configurations other than those listed below. It contains fully configured OpenCore and Clover EFI folders. I assume no liability for the use of this repository. Use it at your own risk!
 
