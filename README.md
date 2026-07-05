@@ -74,4 +74,4 @@ To completely remove the OCLP application (including `LaunchAgent` and `Privileg
 ## 💾 Bootloader Downloads
 All bootable EFI folder archives have been updated to the latest stable releases:
 * [`⚛️ OpenCore Loader 1.0.7`](https://github.com/dortania/build-repo/releases/download/OpenCorePkg-507907a/OpenCore-1.0.7-RELEASE.zip) 
-* [`🍀 Clover Release-5172`](https://github.com/YBronst/CloverBootloader/releases)
+* [`🍀 Clover Release-5174`](https://github.com/YBronst/CloverBootloader/releases)
