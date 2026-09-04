@@ -18,7 +18,7 @@ This repository is intended for personal use only and may be unstable on hardwar
 * **MB:** Asrock Z690 PG Riptide — [`More info`](https://pg.asrock.com/mb/Intel/Z690%20PG%20Riptide/index.ru.asp#Overview)
 * **RAM:** 64GB (2x32GB) DDR4 3200MHz Crucial Technology      
 * **GPU:** Radeon Sapphire Nitro+ RX 5700 XT 8G GDDR6 SE — [`More info`](https://www.sapphiretech.com/ru-ru/consumer/nitro-radeon-rx-5700-xt-se-8g-gddr6)
-* **SSD 1:** WD_BLACK SN850X 1000GB NVMe M.2 (PCIe 4.0) — macOS Tahoe 26.5 (25F71)
+* **SSD 1:** WD_BLACK SN850X 1000GB NVMe M.2 (PCIe 4.0) — macOS Tahoe 26.6.2 (25G83)
 * **SSD 2:** WD_BLACK SN850X 1000GB NVMe M.2 (PCIe 4.0) — Windows 11 (25H2)
 * **SSD 3:** Samsung 860 EVO 500GB (SATA-6 AHCI) — macOS Ventura 13.7.8 (22H730)
 * **Wi-Fi / BT:** BCM94360 FENVI FV-HB1200 AC PCI-E adapter
