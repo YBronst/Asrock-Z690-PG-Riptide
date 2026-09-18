@@ -32,7 +32,7 @@ This repository is intended for personal use only and may be unstable on hardwar
   * [`OCLP-Plus 3.2.2 (Tahoe Patch Set)`](https://github.com/YBronst/OCLP-Plus/releases) is required.
  
 * modified **BroadcomVTD.kext** (with D11 rev 42/43 support for BCM94360 `14e4:43a0`).
-  * [BroadcomVTD-Tahoe](https://github.com/YBronst/BroadcomVTD-Tahoe)
+  * [BroadcomVTD-Tahoe](https://github.com/YBronst/BroadcomVTD-Tahoe/releases)
   
 ## ✅ Functional Features
 - Full graphics acceleration (RX 5700 XT)
