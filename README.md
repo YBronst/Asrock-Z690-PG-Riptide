@@ -24,10 +24,15 @@ This repository is intended for personal use only and may be unstable on hardwar
 * **Wi-Fi / BT:** BCM94360 FENVI FV-HB1200 AC PCI-E adapter
 
 ### 🌐 Wireless & Patching Requirements
+* **AppleVTD (IOMMU)**: Fully enabled (`DisableIoMapper = false`) using custom `SSDT-DMAR.aml`
+  * (Host Address Width = 39 / `0x27`).
 * **For full FENVI FV-HB1200 functionality on macOS Sonoma and Sequoia:**
-  * [`OCLP patch 2.4.1 or newer`](https://github.com/dortania/OpenCore-Legacy-Patcher) is required.
+  * [`OCLP patch 2.4.1 or newer`](https://github.com/dortania/OpenCore-Legacy-Patcher) is required 
 * **For full FENVI FV-HB1200 functionality on macOS Tahoe:**
   * [`OCLP-Plus 3.2.2 (Tahoe Patch Set)`](https://github.com/YBronst/OCLP-Plus/releases) is required.
+ 
+* modified **BroadcomVTD.kext** (with D11 rev 42/43 support for BCM94360 `14e4:43a0`).
+  * [BroadcomVTD-Tahoe](https://github.com/YBronst/BroadcomVTD-Tahoe)
   
 ## ✅ Functional Features
 - Full graphics acceleration (RX 5700 XT)
