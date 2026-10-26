@@ -11,7 +11,9 @@
 ## 👉 Disclaimer
 This repository is intended for personal use only and may be unstable on hardware configurations other than the one listed below. It contains fully configured OpenCore and Clover EFI folders. I assume no liability for the use of this repository. Use it at your own risk!
 
-> ⚠️ **Attention!** If you have an RX 5700 (XT) graphics card, you must use the **Framebuffer (ATI,Adder)** to avoid WindowServer crashes!
+> ⚠️ **Attention!** If you have an RX 5700 (XT) graphics card,
+>
+> you must use the **Framebuffer (ATI,Adder)** to avoid WindowServer crashes!
 
 ## 🛠️ Hardware Configuration
 * **CPU:** Intel i7-12700KF (Alder Lake)
