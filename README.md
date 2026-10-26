@@ -23,16 +23,19 @@ This repository is intended for personal use only and may be unstable on hardwar
 * **SSD 3:** Samsung 860 EVO 500GB (SATA-6 AHCI) — macOS Ventura 13.7.8 (22H730)
 * **Wi-Fi / BT:** BCM94360 FENVI FV-HB1200 AC PCI-E adapter
 
-### 🌐 Wireless & Patching Requirements
-* **AppleVTD (IOMMU)**: Fully enabled (`DisableIoMapper = false`) using custom `SSDT-DMAR.aml`
-  * (Host Address Width = 39 / `0x27`).
-* **For full FENVI FV-HB1200 functionality on macOS Sonoma and Sequoia:**
-  * [`OCLP patch 2.4.1 or newer`](https://github.com/dortania/OpenCore-Legacy-Patcher) is required 
-* **For full FENVI FV-HB1200 functionality on macOS Tahoe:**
-  * [`OCLP-Plus 3.2.2 (Tahoe Patch Set)`](https://github.com/YBronst/OCLP-Plus/releases) is required.
- 
-* modified **BroadcomVTD.kext** (with D11 rev 42/43 support for BCM94360 `14e4:43a0`).
+## No root patches are required anymore for macOS 26.xx.
+
+* **SimpleBCM** 
+  *  Restore Broadcom Wi-Fi support on macOS Tahoe.
+* **SimpleHDA**
+ Restore native AppleHDA on macOS Tahoe.
+* **AppleVTD (IOMMU)**: Fully enabled (`DisableIoMapper = false` and `DisableIoMapperMapping = false`).
+  * Modified **BroadcomVTD.kext** (with D11 rev 42/43 support for BCM94360 `14e4:43a0`).
+  *  Using custom `SSDT-DMAR.aml` (Host Address Width = 39 / `0x27`).
   * [BroadcomVTD-Tahoe](https://github.com/YBronst/BroadcomVTD-Tahoe/releases)
+ 
+  * **Only for macOS Sonoma and Sequoia, the [`OCLP patch 2.4.1 or newer`](https://github.com/dortania/OpenCore-Legacy-Patcher) is still required.**
+
   
 ## ✅ Functional Features
 - Full graphics acceleration (RX 5700 XT)
@@ -43,11 +46,8 @@ This repository is intended for personal use only and may be unstable on hardwar
 
 ## ❌ Known Issues & Troubleshooting
 
-### Application Issues
-* **System version mismatch error** when root patching: Use the experimental [`"PurgePendingUpdate" tool`](https://github.com/YBronst/Asrock-Z690-PG-Reptide/blob/main/purgePendingUpdate.zip).
-
 ### ❗️ Warning
-* **FileVault 2** is not working in Sonoma, Sequoia, and Tahoe when OCLP patches are applied!
+* **FileVault 2** is not working in Sonoma and Sequoia when OCLP patches are applied!
 
 ### 📝 Notes
 * All macOS features are working flawlessly, including DRM playback, sleep/wake (S3), and FileVault 2 (only in macOS Ventura 13.x.x versions).
