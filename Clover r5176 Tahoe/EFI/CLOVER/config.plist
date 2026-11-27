@@ -223,42 +223,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>_PRW to XPRW #1 Rename</string>
-					<key>Count</key>
-					<integer>0</integer>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1BSVwA=
-					</data>
-					<key>Replace</key>
-					<data>
-					WFBSVwA=
-					</data>
-					<key>Skip</key>
-					<integer>0</integer>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_PRW to XPRW #2 Rename</string>
-					<key>Count</key>
-					<integer>0</integer>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1BSVwg=
-					</data>
-					<key>Replace</key>
-					<data>
-					WFBSVwg=
-					</data>
-					<key>Skip</key>
-					<integer>0</integer>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename SAT0 to SATA (Disk)</string>
 					<key>Count</key>
 					<integer>0</integer>
@@ -469,7 +433,7 @@
 				<data>
 				AA==
 				</data>
-				<key>PP_PhmSoftPowerPlayTable</key>
+				<key>PP_PhmSoftPowerPlayTable?</key>
 				<data>
 				igYMAAHiAfgIAADUOAAAfQAIAAAAGwAAAAAAAAAAAAB2
 				AAAAAAAAAAAAAAAAAAEAAAAKAAAANAgAAPMEAAA+BAAA
@@ -807,7 +771,7 @@
 		<key>PatchVBios</key>
 		<false/>
 		<key>RadeonDeInit</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>

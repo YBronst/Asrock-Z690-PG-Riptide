@@ -1,0 +1,107 @@
+15:514  1:746  Found BIOS RSDP at f0010
+15:514  0:000  Printing ACPI tables from RSDP f0010 ...
+15:514  0:000   f0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:514  0:000    (Xsdt: 68c8c728, Rsdt: 68c8c394)
+15:514  0:000    68c8c728: 'XSDT', 'A M I', Rev: 1, Len: 244
+15:514  0:000    68c8c394: 'RSDT', 'A M I', Rev: 1, Len: 140
+15:514  0:000    Tables in Xsdt: 26
+15:514  0:000    0. 68845000: 'FACP', 'A M I', Rev: 6, Len: 276
+15:514  0:000        (Dsdt: 687BB000, Facs: 68D30000, XDsdt: 687bb000, XFacs: 0)
+15:514  0:000        687bb000: 'DSDT', 'A M I', Rev: 2, Len: 565231
+15:517  0:003        68d30000: 'FACS', Ver: 2, Len: 64
+15:517  0:000    1. 687ba000: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:517  0:000    2. 68847000: 'SSDT', 'Pmax_Dev', Rev: 2, Len: 908
+15:517  0:000    3. 687b4000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 23860
+15:517  0:000    4. 68846000: 'AAFT', 'OEMAAFT', Rev: 1, Len: 949
+15:517  0:000    5. 687b1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 10881
+15:517  0:000    6. 687ad000: 'SSDT', 'IgfxSsdt', Rev: 2, Len: 13135
+15:517  0:000    7. 687ac000: 'HPET', 'A M I', Rev: 1, Len: 56
+15:517  0:000    8. 687ab000: 'APIC', 'A M I', Rev: 5, Len: 476
+15:517  0:000    9. 687aa000: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:517  0:000    10. 687a9000: 'NHLT', 'A M I', Rev: 0, Len: 45
+15:517  0:000    11. 687a8000: 'LPIT', 'A M I', Rev: 1, Len: 204
+15:517  0:000    12. 6879d000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 37620
+15:517  0:000    13. 6879c000: 'DBGP', 'A M I', Rev: 1, Len: 52
+15:517  0:000    14. 6879b000: 'DBG2', 'A M I', Rev: 0, Len: 84
+15:517  0:000    15. 68799000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6410
+15:517  0:000    16. 68798000: 'DMAR', 'EDK2', Rev: 1, Len: 80
+15:517  0:000    17. 68797000: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:517  0:000    18. 68795000: 'SSDT', 'xh_adls3', Rev: 2, Len: 5493
+15:517  0:000    19. 68791000: 'SSDT', 'SocGpe', Rev: 2, Len: 15082
+15:517  0:000    20. 6878d000: 'SSDT', 'SocCmn', Rev: 2, Len: 14810
+15:517  0:000    21. 6877e000: 'VFCT', 'A M I', Rev: 1, Len: 59524
+15:517  0:000    22. 6877d000: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:517  0:000    23. 6877c000: 'TPM2', 'A M I', Rev: 4, Len: 76
+15:517  0:000    24. 6877b000: 'PHAT', 'A M I', Rev: 1, Len: 2599
+15:517  0:000    25. 687a7000: 'WSMT', 'A M I', Rev: 1, Len: 40
+15:517  0:000  Found UEFI Acpi 2.0 RSDP at 68c8d014
+15:517  0:000  Saving ACPI tables from RSDP 68c8d014 to ACPI\origin ...
+15:517  0:000   68c8d014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:517  0:000    (Xsdt: 68c8c728, Rsdt: 68c8c394)
+15:517  0:000    68c8c728: 'XSDT', 'A M I', Rev: 1, Len: 244
+15:517  0:000    68c8c394: 'RSDT', 'A M I', Rev: 1, Len: 140
+15:517  0:000    Tables in Xsdt: 26
+15:517  0:000    0. 68845000: 'FACP', 'A M I', Rev: 6, Len: 276
+15:517  0:000        (Dsdt: 687BB000, Facs: 68D30000, XDsdt: 687bb000, XFacs: 0)
+15:517  0:000        687bb000: 'DSDT', 'A M I', Rev: 2, Len: 565231
+15:520  0:003        68d30000: 'FACS', Ver: 2, Len: 64
+15:520  0:000    1. 687ba000: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:520  0:000    2. 68847000: 'SSDT', 'Pmax_Dev', Rev: 2, Len: 908
+15:520  0:000    3. 687b4000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 23860
+15:520  0:000    4. 68846000: 'AAFT', 'OEMAAFT', Rev: 1, Len: 949
+15:520  0:000    5. 687b1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 10881
+15:520  0:000    6. 687ad000: 'SSDT', 'IgfxSsdt', Rev: 2, Len: 13135
+15:520  0:000    7. 687ac000: 'HPET', 'A M I', Rev: 1, Len: 56
+15:520  0:000    8. 687ab000: 'APIC', 'A M I', Rev: 5, Len: 476
+15:520  0:000    9. 687aa000: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:520  0:000    10. 687a9000: 'NHLT', 'A M I', Rev: 0, Len: 45
+15:520  0:000    11. 687a8000: 'LPIT', 'A M I', Rev: 1, Len: 204
+15:520  0:000    12. 6879d000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 37620
+15:520  0:000    13. 6879c000: 'DBGP', 'A M I', Rev: 1, Len: 52
+15:520  0:000    14. 6879b000: 'DBG2', 'A M I', Rev: 0, Len: 84
+15:520  0:000    15. 68799000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6410
+15:520  0:000    16. 68798000: 'DMAR', 'EDK2', Rev: 1, Len: 80
+15:520  0:000    17. 68797000: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:520  0:000    18. 68795000: 'SSDT', 'xh_adls3', Rev: 2, Len: 5493
+15:520  0:000    19. 68791000: 'SSDT', 'SocGpe', Rev: 2, Len: 15082
+15:520  0:000    20. 6878d000: 'SSDT', 'SocCmn', Rev: 2, Len: 14810
+15:520  0:000    21. 6877e000: 'VFCT', 'A M I', Rev: 1, Len: 59524
+15:520  0:000    22. 6877d000: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:520  0:000    23. 6877c000: 'TPM2', 'A M I', Rev: 4, Len: 76
+15:520  0:000    24. 6877b000: 'PHAT', 'A M I', Rev: 1, Len: 2599
+15:520  0:000    25. 687a7000: 'WSMT', 'A M I', Rev: 1, Len: 40
+15:520  0:000  Found UEFI Acpi 1.0 RSDP at 68c8d000
+15:520  0:000  Printing ACPI tables from RSDP 68c8d000 ...
+15:520  0:000   68c8d000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+15:520  0:000    (Rsdt: 68c8c000)
+15:520  0:000    68c8c000: 'RSDT', 'A M I', Rev: 1, Len: 140
+15:520  0:000    Tables in Rsdt: 26
+15:520  0:000    0. 68845000: 'FACP', 'A M I', Rev: 6, Len: 276
+15:520  0:000        (Dsdt: 687BB000, Facs: 68D30000, XDsdt: 687bb000, XFacs: 0)
+15:520  0:000        687bb000: 'DSDT', 'A M I', Rev: 2, Len: 565231
+15:524  0:003        68d30000: 'FACS', Ver: 2, Len: 64
+15:524  0:000    1. 687ba000: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:524  0:000    2. 68847000: 'SSDT', 'Pmax_Dev', Rev: 2, Len: 908
+15:524  0:000    3. 687b4000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 23860
+15:524  0:000    4. 68846000: 'AAFT', 'OEMAAFT', Rev: 1, Len: 949
+15:524  0:000    5. 687b1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 10881
+15:524  0:000    6. 687ad000: 'SSDT', 'IgfxSsdt', Rev: 2, Len: 13135
+15:524  0:000    7. 687ac000: 'HPET', 'A M I', Rev: 1, Len: 56
+15:524  0:000    8. 687ab000: 'APIC', 'A M I', Rev: 5, Len: 476
+15:524  0:000    9. 687aa000: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:524  0:000    10. 687a9000: 'NHLT', 'A M I', Rev: 0, Len: 45
+15:524  0:000    11. 687a8000: 'LPIT', 'A M I', Rev: 1, Len: 204
+15:524  0:000    12. 6879d000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 37620
+15:524  0:000    13. 6879c000: 'DBGP', 'A M I', Rev: 1, Len: 52
+15:524  0:000    14. 6879b000: 'DBG2', 'A M I', Rev: 0, Len: 84
+15:524  0:000    15. 68799000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6410
+15:524  0:000    16. 68798000: 'DMAR', 'EDK2', Rev: 1, Len: 80
+15:524  0:000    17. 68797000: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:524  0:000    18. 68795000: 'SSDT', 'xh_adls3', Rev: 2, Len: 5493
+15:524  0:000    19. 68791000: 'SSDT', 'SocGpe', Rev: 2, Len: 15082
+15:524  0:000    20. 6878d000: 'SSDT', 'SocCmn', Rev: 2, Len: 14810
+15:524  0:000    21. 6877e000: 'VFCT', 'A M I', Rev: 1, Len: 59524
+15:524  0:000    22. 6877d000: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:524  0:000    23. 6877c000: 'TPM2', 'A M I', Rev: 4, Len: 76
+15:524  0:000    24. 6877b000: 'PHAT', 'A M I', Rev: 1, Len: 2599
+15:524  0:000    25. 687a7000: 'WSMT', 'A M I', Rev: 1, Len: 40
