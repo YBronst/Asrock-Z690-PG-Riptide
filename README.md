@@ -56,6 +56,8 @@ This repository is intended for personal use only and may be unstable on hardwar
 ### 📝 Notes
 * All macOS features work flawlessly, including DRM playback, sleep/wake (S3), and FileVault 2 (only on macOS Ventura 13.x.x versions).
 * Clover has a known issue with updates under T2 Mac models.
+* **Sleep/Wake (S3) with RX 5700 XT over DisplayPort:** Use a proper VESA-compliant DisplayPort cable without Pin 20 (`DP_PWR`) connected (e.g., **Ugreen**) and disable **Auto Input Detect** in your monitor's OSD menu. Stock/cheap cables with Pin 20 wired feed 3.3V back to the GPU during sleep, causing `[PPLIB] Failed Power Play Resume` (`SW_IP_CLIENT_ID__SMU`) kernel panics on wake.
+
 * **Before use:** You need to generate your own MLB and SMBIOS data using a Python script that utilizes acidanthera's `macserial` tool, and then add them to your `config.plist`. [`More info`](https://github.com/corpnewt/GenSMBIOS)
 
 ---
