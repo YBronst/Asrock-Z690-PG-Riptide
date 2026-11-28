@@ -79,36 +79,36 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>HPET _STA to XSTA Rename</string>
+					<string>Rename SAT0 to SATA (Disk)</string>
 					<key>Count</key>
 					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					EV9TVEE=
+					U0FUMA==
 					</data>
 					<key>Replace</key>
 					<data>
-					EVhTVEE=
+					U0FUQQ==
 					</data>
 					<key>Skip</key>
 					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>HPET _CRS to XCRS Rename</string>
+					<string>HECI to IMEI</string>
 					<key>Count</key>
 					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					JV9DUlM=
+					SEVDSQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					JVhDUlM=
+					SU1FSQ==
 					</data>
 					<key>Skip</key>
 					<integer>0</integer>
@@ -133,24 +133,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>_OSI to XOSI rename - requires SSDT-XOSI.aml</string>
-					<key>Count</key>
-					<integer>0</integer>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X09TSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WE9TSQ==
-					</data>
-					<key>Skip</key>
-					<integer>0</integer>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>MC_ to MCHC</string>
 					<key>Count</key>
 					<integer>0</integer>
@@ -163,6 +145,24 @@
 					<key>Replace</key>
 					<data>
 					TUNIQw==
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(GPRW,2,N) to XPRW</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R1BSVwI=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVwI=
 					</data>
 					<key>Skip</key>
 					<integer>0</integer>
@@ -217,24 +217,6 @@
 					<key>Replace</key>
 					<data>
 					IgAAeQA=
-					</data>
-					<key>Skip</key>
-					<integer>0</integer>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename SAT0 to SATA (Disk)</string>
-					<key>Count</key>
-					<integer>0</integer>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
 					</data>
 					<key>Skip</key>
 					<integer>0</integer>
@@ -429,29 +411,31 @@
 				<string>ATY,Adder</string>
 				<key>@3,name</key>
 				<string>ATY,Adder</string>
+				<key>ATY,EFIVersion</key>
+				<string></string>
 				<key>CFG,CFG_USE_AGDC</key>
 				<data>
 				AA==
 				</data>
-				<key>PP_PhmSoftPowerPlayTable?</key>
+				<key>PP_PhmSoftPowerPlayTable</key>
 				<data>
-				igYMAAHiAfgIAADUOAAAfQAIAAAAGwAAAAAAAAAAAAB2
+				igYMAAHiAfgIAADSOAAAfQAIAAAAGwAAAAAAAAAAAAB2
 				AAAAAAAAAAAAAAAAAAEAAAAKAAAANAgAAPMEAAA+BAAA
 				8wQAAPMEAABrAwAA8wQAAAQFAAAEBQAAKgMAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAACwBAABkAAAAZAAAAGQA
 				AAD7AQAAZAAAAPsBAAA0AQAALAEAACwBAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAACAAAAADgAAAB4AAAABAQEB
-				AQEBAQEAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAGYIAABm
+				AQEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAGYIAABm
 				CAAAZggAALAEAABmCAAAsAQAAGYIAACwBAAAtgMAADIA
-				AABIDQAASA0AAGQAAABuAAAAAgAAAAEAAAABAAAAAQAA
+				AACADAAAgAwAAGQAAABuAAAAAgAAAAEAAAABAAAAAQAA
 				AAEAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAA
 				ZAAAAGQAAABkAAAAAAAAAAAAAAAAAAAAIAMAACADAAAg
 				AwAA7gIAACADAADuAgAAIAMAAO4CAABxAgAAMgAAAEwE
 				AABMBAAAGQAAADIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				ABkAAAAKAAAAGQAAAAoAAAAZAAAACgAAABkAAAAKAAAA
-				GQAAAAoAAAAAAAAAAAAAAAAAAAAIAAAA/6/fsyMGAADc
-				AAAAAAAAAAAAAAAAAAAA3AAAAAAAAAAAAAAAAAAAAA4A
-				AAC9AAAAZABsAGkAcwBzAHMAcwAAAAAAAAAAAAAAAAAA
+				GQAAAAoAAAAAAAAAAAAAAAAAAAAIAAAA/6/fsyMGAADD
+				AAAAAAAAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAAAAA8A
+				AACxAAAAZABrAGkAcwBzAHMAcwAAAAAAAAAAAAAAAAAA
 				AP5wAAABAAAAZABkAAAAAAAAAAAAVAtUC7gLuAvAEmgQ
 				TAAAAAEAAgAAAAAAAAAAAIEmgj6kcF2+tRoyPwEAAgAA
 				AIA/AAAAAPG6Xj6rsm+9RfU2PwEBBAAAAIA/AAAAAPG6
@@ -468,9 +452,9 @@
 				0AHQAdAB0AHQAdAB0AHQAdAB0AHQAdAB0AHQAdAB0AHQ
 				AdAB0AHQATQI8wRrAz4E8wTzBAQFBAUqA9ABAAMDAzAB
 				+wG4C7gLjApIDUgNSA2IExgVGBUYFSADIAMgAwAAAADQ
-				AQAAAQIAAFsAABAAAAADBgZrAmsCAAAAAAAAAAAyADwA
-				kAGQAZABkAGQAZABkAGQAZABkAEaAA4GyghIDVkAIAMB
-				AAACAAAAAAAAAAAAAAAAR+aRPKyoQb0TRF09AAAAAAAA
+				AQAAAQIAAFsAABAAAAADBgZrAmsCAAAAAAAAAAAeACMA
+				kAGQAZABkAGQAZABkAGQAZABkAEPAA4Geg16DVcAIAMB
+				AAECAAAAAAAAAAAAAAAAR+aRPKyoQb0TRF09AAAAAAAA
 				AACPwvU8AAAAAAAAAAAAAAAAS8jHPZg0Rj1wQqG9r1oZ
 				O4yhHLv4Nr09AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAKAAoAABAQAAAAAAAKAAoAAA
@@ -585,10 +569,6 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,0/0,0</string>
-				<key>device-id?</key>
-				<data>
-				JIHsEA==
-				</data>
 				<key>device_type</key>
 				<string>Ethernet controller</string>
 				<key>model</key>
@@ -837,6 +817,14 @@
 				<string>25.x,26.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.AppleEthernetRL</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable AGDP (equivalent to agdpmod=ignore)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleGraphicsDevicePolicy</string>
 			</dict>
 		</array>
 		<key>KextsToPatch</key>
